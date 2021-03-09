@@ -1,0 +1,54 @@
+:root {
+    --primary--color:rgba(96, 96, 96,0.6);
+    --secondary--color:#eee;
+}
+
+* {
+box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    min-height: 100vh;
+}
+
+header {
+    clear: both;
+    height: 60px;
+    background-color:var(--primary--color);
+}
+
+header #logo {
+    color: var(--secondary--color);
+    text-align: center;
+    padding: 10px;
+}
+header nav ul li {
+    float: right;
+    display: inline-block;
+    margin-left: 25px;
+}
+header a {
+    font-size: 15px;
+    padding: 5px;
+    color: var(--secondary--color);
+    text-decoration: none;
+}
+section {
+    float:left;
+    width: 50%
+}
+
+footer {
+    position: static;
+text-align: center;
+padding: 20px;
+font-size: 15px;
+color: var(--secondary--color);
+}
